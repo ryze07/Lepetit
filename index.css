@@ -1,0 +1,879 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#divao{
+    width: 100%;
+}
+/*O MENU*/
+#q{
+    display: none;
+}
+#menu{
+    width: 100%;
+    height: 200px;
+}
+#sup{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(236, 43, 43, 0.007);
+    border-bottom: 5px #0059AC solid;
+}
+#supcon{
+    float: left;
+    width: 47%;
+    height: 30px;
+}
+#supcon p{
+    text-align: right;
+    font-size: 11pt;
+    padding-top: 8px;
+    color: #0059AC;
+    font-weight: 500;
+}
+#supico{
+    float: left;
+    width: 46.5%;
+    height: 30px;
+}
+#i1{
+    margin-top: 5px;
+    float: right;
+    width: 20px;
+    height: 20px;
+    background-color: #0059AC;
+    background: url(Fotos/instagram\ \(4\).png);
+    background-size: 100% 100%;
+}#i2{
+    margin: 5px 5px  0 0 ;
+    float: right;
+    width: 20px;
+    height: 20px;
+    background:url(Fotos/facebook.png);
+    background-size: 100% 100%;
+}
+#log{
+    float: left;
+    margin-left: 70px;
+    background: url(Fotos/logo-le-petit-1.png)no-repeat;
+    width: 20%;
+    height: 200px;
+}
+#men{
+    float: left;
+    width: 49%;
+    height: 200px;
+}
+#men ul{
+    margin-top: 80px;
+    text-align: right;
+    
+}
+#men li{
+    display: inline;
+    padding: 17px;
+    font-weight: 1000;
+}
+a{
+    color: #0059AC;
+    text-decoration: none;
+}
+#area{
+    float: right;
+    width: 16%;
+    height: 200px;
+    text-align: left;
+}
+#area input{
+    padding: 7px 18px;
+    margin-top: 70px;
+    border-radius: 8px;
+    border: #0059AC 4px solid;
+    color: #0059AC;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+}
+#meni{
+    margin-top: -60px;
+    background: url(Fotos/topo.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 900px;
+}
+
+/* CONHECA NOSSA*/
+#con{
+    padding: 150px 0 0  0;
+    width: 100%;
+    height: 730px;
+    background-color: #007FDB;
+}
+#conmeio{
+    margin:auto;
+    width: 50%;
+    height: 300px;
+}
+#conmeio h1{
+    font-size: 42pt;
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#conmeio h2{
+    margin-top: -10px;
+    font-size: 42pt;
+    font-weight: 1300;
+    color: #EF8C13;
+    text-align: center;
+}
+#conmeio p{
+    color: #A2B1EB;
+    padding-top: 30px;
+    font-size: 13pt;
+}
+#carro{
+    overflow: hidden;
+    margin-top: -280px;
+    width: 100%;
+    height: 600px;
+     list-style: none;
+}
+#carro ul{
+    list-style: none;
+    display: flex;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    animation: slide 10s infinite ease-in-out alternate;
+    z-index: 0;
+}
+#carro ul:hover{
+    animation-play-state: paused;
+}
+@keyframes slide {
+    0%{left:-0px;}
+    100%{left:-1310px;}
+}
+#carro img{
+    width: 900px;
+}
+
+/*INSTALAÇÕES*/
+
+#insta{
+    padding: 200px 0 0 0;
+    width: 100%;
+    height: 1350px;
+    background-color: rgb(255, 255, 255);
+}
+#insta h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+    color: #0059AC;
+    font-size: 52px;
+}
+#instacen{
+    margin: auto;
+    width: 90%;
+}
+#instacen h1{
+    padding: 150px 0 50px 0;
+    font-size: 20pt;
+    color:#FF9900 ;
+}
+.f{
+    float: left;
+    width: 24%;
+    height: 250px;
+    margin: 0;
+    padding: 5px;
+}
+#insta img{
+    width: 100%;
+    height: 250px;
+}
+#f2{
+    width: 100%;
+    height: 800px;
+}
+#f2 h1{
+    padding-top: 600px;
+}
+
+/*EQUIPE*/
+
+#equipe{
+    margin: 0px 0 0 0 ;
+    width: 100%;
+    height: 850px;
+    background: url(Fotos/background2\ \(2\).png);
+    background-size: 100% 100%;
+}
+#equipe h1{
+    padding-top: 250px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+    font-size: 52px;
+    color: white;
+}
+#equipecent{
+    width: 95%;
+    height: 500px;
+    margin: auto;
+}
+#equipecent ul{
+ margin-top: 50px;
+}
+#equipecent li{
+    width: 33%;
+    height: 50px;
+    float: left;
+    display: inline;
+    padding: 30px 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+    font-size: 28px;
+    color: white;
+}
+
+/*ATIVIDADE*/
+
+#atividades{
+    color: #0059AC;
+    width:100%;
+    height:2150px;
+    background: url(Fotos/background3.png);
+    background-size: 100% 180%;
+    background-attachment: fixed;
+}
+#at h1{
+    font-weight: 1000;
+    font-size: 58px;
+    color: #0059AC;
+    text-align: center;
+    padding: 150px 0 100px 0;
+}
+#ati{
+    margin: auto;
+    width: 90%;
+    height: 500px;
+}
+#ati p{
+    font-size: 13pt;
+    padding: 10px;
+    color: #8B8D94;
+}
+#ati li{
+    text-align: center;
+    margin: 20px;
+    float: left;
+    display: inline;
+    width: 29%;
+    height: 400px;
+}
+
+/*EXTRAS*/
+
+#extras{
+    width: 100%;
+    height: 550px;
+    background: url(fotos/background4.png);
+    background-size: 100% 100%;
+}
+#ex h1{
+    padding: 100px 0 0 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+    font-size: 38pt;
+}
+#extra{
+    margin: auto;
+    width: 90%;
+}
+#extra li{
+    margin: 30px 50px 30px 50px;
+    width: 24%;
+    float: left;
+    display: inline;
+}
+#extra h1{
+    padding: 30px 20px;
+    color: white;
+    }
+#extra img{
+    float: left;
+}
+
+/*NUTRILÇÃO*/
+
+#nutricao{
+    padding: 180px 0 0 0;
+    width: 100%;
+    height: 900px;
+    background:url(fotos/background5\ \(1\).png);
+    background-size:100% 100%;
+}
+#nutri{
+    margin: auto;
+    width: 90%;
+    height: 530px;
+}
+#n1{
+    float: left;
+    width: 50%;
+    height: 530px;
+    background: url(fotos/nutrição-1.png);
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+#n2{
+    float: left;
+    width: 47%;
+}
+#n2 h1{
+    padding-left: 35px;
+    
+    color: red;
+    font-weight: 1000;
+    font-size: 40pt;
+}
+#n2 p{
+    padding-left: 35px;
+    color: #99CCFF;
+    font-size: 14.5pt;
+}
+
+/*MENSAGENS*/
+
+#map{
+    width: 100%;
+    height: 500px;
+    margin-top: 120px;
+}
+#mapm{
+    margin: auto;
+    width: 90%;
+    height: 300px;
+    background: url(Fotos/WhatsApp\ Image\ 2021-06-27\ at\ 21.44.41\ \(2\).jpeg);
+    background-size: 100% 100%;
+}
+#mensa{
+    width: 100%;
+    height: 500px;
+    background: #DFEFFF;
+    padding-top: 150px;
+}
+#mens{
+    margin: auto;
+    width: 90%;
+    height: 460px;
+}
+#es{
+    float: left;
+    width: 30%;
+    color: #0059AC;
+}
+#es h1{
+    font-weight: 1000;
+    font-size: 38pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#dir{
+    float: right; 
+    width: 65%;
+}
+#dir input{
+    margin: 0 0 6px 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: #0063C1;
+    color: white;
+    padding: 0px 10px;
+}
+textarea{
+    background: #0063C1;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+}
+textarea::placeholder{
+    color: #80B0E0;
+    font-size: 13pt;
+    padding: 5px 10px;
+}
+input::placeholder{
+    color: #80B0E0;
+    font-size: 11pt;
+    padding: 0 10px;
+}
+#dir button{
+    background: #33D8B8;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 190px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+}
+#bb button{
+    bottom: 10px;
+    right: 10px;
+    z-index: 300;
+    position: fixed;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background: #0059AC;
+}
+
+
+@media(max-width: 1000px) {
+
+    div#area{
+        display: none;
+    }
+    #men ul{
+        display: none;
+        width: 1px;
+    }
+    #sup{
+        display: none;
+    }
+    #log{
+        left: 0px;
+        margin-left: 0px;
+        background: url(Fotos/logo-le-petit-1.png);
+        background-size: 100% 100%;
+        width: 600px;
+        height: 500px;
+        z-index: 0;
+    }
+    /*poket*/
+
+#q{
+    display: contents;
+    float: left;
+    width: 100%;
+    height: 300px;
+}
+.container{
+    position:fixed;
+    right: 5px;
+    width: 100px;
+    height: 200px;
+}
+#cbm{
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+    z-index: 160;
+    top: 100px;
+    right: 95px;
+}
+label{
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 20px;
+    top: 100px;
+    right: 50px;
+}
+label span{
+    position: relative;
+    top: 30px;
+    right: 40px;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    height: 15px;
+    border-radius: 30px;
+    background: #0059ac;
+    transition: 0.25s ease-in-out;
+}
+#cbm:checked + label span:nth-child(1){
+    opacity: 0;
+}
+#cbm:checked + label span:nth-child(2){z-index: 2;
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 30px;
+    right: 40px;
+    top: 30px;
+    right: 40px;
+    z-index: 60;
+} 
+#cbm:checked + label span:nth-child(3){
+    transform: rotate( 45deg);
+    z-index: 60;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+#cbm:checked + label a{
+    display: block;
+    width: 90%;
+    height: 100%;
+}
+#cbm:checked + label #cor{
+    z-index: 50;
+    display: block;
+    position: absolute;
+    margin-top: -120px;
+    right: -55px;
+    width: 900px;
+    height: 1750px;
+    background-color: rgb(255, 255, 255);
+}
+#cor{
+    display: none;
+}
+#cor p{
+    padding: 0 40px 0 22px;
+    font-weight: 1000;
+    color: rgb(167, 165, 165); 
+    font-size: 30pt;    
+}
+label ul{
+    list-style-type: none;
+    padding-top: 200px;
+}
+label li{
+    position: relative;
+    font-size: 35pt;
+    padding: 0px 50px;
+}
+label a{
+    display: none;
+    text-decoration: none;
+    top: 50px;
+    color: black;
+    font-weight: 1000;
+    padding: 45px 20px;
+    border-bottom: 1px solid lightgray;
+}
+label a:hover{
+    color: #94DFF7;
+}
+/*Area restrita*/
+#area2{
+    position: relative;
+    float: right;
+    right: 400px;
+    width: 200px;
+    height: 500px;
+    text-align: left;
+}
+#area2 input{
+    width: 450px;
+    height: 100px;
+    margin: 50px 0px;
+    border-radius: 30px;
+    background-color: white;
+    border: #0059AC 10px solid;
+    color: #0059AC;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+    font-size: 30pt;
+}
+/*face / Inta*/
+#supico{
+    margin-top: 5px;
+    float: none;
+    margin-left: 50px;
+    width: 19%;
+    height: 300px;
+}
+#i1{
+    margin-top: 50px;
+    width: 70px;
+    float: right;
+    height: 70px;
+}#i2{
+    margin: none;
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+/*=========*/
+
+    #area{
+        display:flex;
+    }
+    #area input{
+        display: block;
+    }
+    /*carrocel*/
+    #carro{
+        display: none;
+    }
+    #carro2{
+        overflow: none;
+        margin-top: -11260px;
+        width: 100%;
+         list-style: outside;
+        
+    }
+    #carro2 ul{
+        width: 120px;
+        height: 120px;
+        animation: none;
+        display: inline;
+    }
+    #carro2 li{
+        width: 100%;
+        height: 120px;
+        margin: 0 0 1500px 0;
+    }
+    #carro2 img{
+        margin: 180px 0;
+        width: 100%;
+        height: 1500px;
+    }
+    /*========================*/
+    #meni{
+        margin-top: -60px;
+        background: url(Fotos/background-mobile.jpg);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 1500px;
+    }
+    #insta{
+        padding: 00px 0 0 0;
+        width: 100%;
+        height: 2350px;
+        background-color: rgb(255, 255, 255);
+    }
+    #con{
+        margin-bottom: 600px;
+        padding: 50px 0 0 0;
+        width: 100%;
+        height: 11530px;
+        background-color: #007FDB;
+    }
+    #conmeio{
+        margin:auto;
+        width: 80%;
+        height: 300px;
+    }
+    #conmeio h1{
+        font-size: 55pt;
+        font-weight: 1000;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    #conmeio h2{
+        margin-top: -5px;
+        font-size: 55pt;
+        font-weight: 1300;
+        color: #EF8C13;
+        text-align: center;
+    }
+    #conmeio p{
+        font-size: 35pt;
+    }
+    #insta{
+        padding-top: 300px;
+        height: 3000px;
+    }
+    #insta h1{
+        font-size: 65pt;
+    }
+    #instacen{
+        width: 100%;
+        height: 1800px;
+    }
+    #instacen h1{
+        padding: 100px 0 ;
+    }
+    .f{
+        float: left;
+        width: 48%;
+        height: 250px;
+        margin: 0;
+        padding: 5px;
+    }
+    #equipe{
+        margin: 0px 0 0 0 ;
+        width: 100%;
+        height: 850px;
+        background: url(Fotos/background2\ \(2\).png);
+        background-size: 99.9% 100%;
+    }
+    #equipecent li{
+        width: 33%;
+        height: 50px;
+        float: left;
+        display: inline;
+        padding: 30px 0;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 1000;
+        font-size: 38px;
+        color: white;
+    }
+    #at h1{
+        font-weight: 1000;
+        font-size: 88px;
+        color: #0059AC;
+        text-align: center;
+        padding: 150px 0 100px 0;
+    }
+    #atividades{
+        color: #0059AC;
+        width:100%;
+        height:11800px;
+        background: url(Fotos/background3.png);
+        background-size: 100% 180%;
+        background-attachment: fixed;
+    }
+    #ati li{
+        text-align: center;
+        margin: 100px 0;
+        float: left;
+        display: inline;
+        width: 100%;
+        height:auto;
+        font-size: 30pt;
+    }
+    #ati li p{
+        font-size: 33pt;
+    }
+
+    /*Extras*/
+
+    #ex h1{
+        font-size: 55pt;
+    }
+    #extras{
+        width: 100%;
+        height: 950px;
+        background: url(fotos/background4.png);
+        background-size: 99.9% 100%;
+        font-size: 25pt;
+    }
+    #extra li{
+        padding-top: 80px;
+        margin: 30px 50px 30px 50px;
+        width: 20%;
+        float: left;
+        display: inline;
+    }
+    
+    /*Nutriçao*/
+    #nutricao{
+        padding: 180px 0 0 0;
+        width: 100%;
+        height: 4000px;
+        background:url(fotos/background5\ \(1\).png);
+        background-size:999.99% 100%;
+    }
+    #n1{
+        margin-bottom: 80px;
+        float: left;
+        width: 100%;
+        height: 600px;
+        background: url(fotos/nutrição-1.png);
+        background-size: 100% 100%;
+        border-radius: 10px;
+    }
+    #n2{
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    #n2 h1{
+        font-size: 70pt;
+        margin-bottom: 50px;
+    }
+    #n2 p{
+        font-size: 30pt;
+    }
+    /*mapa*/
+    #map{
+        width: 100%;
+        height: 300px;
+        margin-top: 60px;
+    }
+    #mapm{
+        margin: auto;
+        width: 90%;
+        height: 200px;
+        background: url(Fotos/WhatsApp\ Image\ 2021-06-27\ at\ 21.44.41\ \(2\).jpeg);
+        background-size: 99.9% 99.9%;
+    }
+    /*frou*/
+    #mensa{
+        width: 100%;
+        height: 1500px;
+        background: #DFEFFF;
+        padding-top: 150px;
+    }
+    #es{
+        text-align: left;
+        float: left;
+        font-size: 30pt;
+        width: 100%;
+        color: #0059AC;
+        margin-bottom: 50px;
+    }
+    #es h1{ 
+        font-size: 80pt;
+        margin-bottom: 70px;
+    }
+    #dir{
+        padding-top: 30px;
+        float: right; 
+        width: 100%;
+    }
+    #dir input{
+        margin: 0 0 6px 0;
+        width: 100%;
+        height: 120px;
+        border-radius: 25px;
+        border: none;
+        background: #0063C1;
+        color: white;
+        padding: 0px 0px;
+        margin: 10px 0;
+    }
+    textarea{
+        margin-top: 5px;
+        background: #0063C1;
+        border-radius: 25px;
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        width: 98%;
+    }
+    textarea::placeholder{
+        color: #80B0E0;
+        font-size: 33pt;
+        padding: 5px 40px;
+    }
+    input::placeholder{
+        color: #80B0E0;
+        font-size: 31pt;
+        padding: 0 50px;
+    }
+    #bb button{
+        bottom: 80px;
+        font-size: 40pt;
+        width: 150px;
+        height: 80px;
+    }
+    }

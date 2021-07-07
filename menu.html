@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: yellow;
+        }
+        #q{
+            float: left;
+            width: 100%;
+            height: 3000px;
+        }
+        .container{
+            position: fixed;
+            right: 5px;
+        }
+        #cbm{
+            cursor: pointer;
+            position: absolute;
+            opacity: 0;
+            width: 40px;
+            height: 40px;
+            z-index: 1;
+        }
+        label{
+            cursor: pointer;
+            position: relative;
+            display: block;
+            width: 30px;
+            height: 22px;
+        }
+        label span{
+            margin: 3px;
+            display: block;
+            width: 100%;
+            height: 5px;
+            border-radius: 30px;
+            background: #0059ac;
+            transition: 0.25s ease-in-out;
+        }
+        #cbm:checked{
+            cursor: pointer;
+            position: absolute;
+            opacity: 0;
+            width: 40px;
+            height: 40px;
+            z-index: 5;
+        }
+        #cbm:checked + label span:nth-child(1){
+            opacity: 0;
+        }
+        #cbm:checked + label span:nth-child(2){z-index: 2;
+            position: absolute;
+            transform: rotate(-45deg);
+            top: 8px;
+        } 
+        #cbm:checked + label span:nth-child(3){
+            transform: rotate( 45deg);
+            z-index: 2;
+            position: absolute;
+            top: 8px;
+        }
+        #cbm:checked + label a{
+            display: block;
+            width: 90%;
+            height: 100%;
+        }
+        #cbm:checked + label #cor{
+            display: block;
+            position: fixed;
+            top: -20px;
+            right: 0px;
+            width: 290px;
+            height: 700px;
+            background-color: rgb(255, 255, 255);
+        }
+        #cor{
+            display: none;
+        }
+        #cor p{
+            padding: 0 40px 0 22px;
+            text-align: right;
+            font-weight: 1000;
+             color: rgb(167, 165, 165);     
+       }
+        label ul{
+            list-style-type: none;
+            padding-top: 50px;
+        }
+        label li{
+            position: relative;
+        }
+        label a{
+            display: none;
+            text-decoration: none;
+            top: 50px;
+            color: black;
+            font-weight: 1000;
+            padding: 15px 0;
+            border-bottom: 1px solid lightgray;
+        }
+        label a:hover{
+            color: #94DFF7;
+        }
+    </style>
+</head>
+<body>
+    <div id="q">
+    <div class="container">
+        <input type="checkbox" id="cbm">
+
+        <label for="cdm">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div id="cor">
+                <ul>
+                    <li><a href="#erea">INÍCIO</a></li>
+                    <li><a href="#con">SOBRE</a></li>
+                    <li><a href="#insta">INSTALAÇÕES</a></li>
+                    <li><a href="#equipe">EQUIPE</a></li>
+                    <li><a href="#atividades">ATIVIDADES</a></li>
+                    <li><a href="#mensa">CONTATO</a></li>
+                </ul>
+                <p>📱 Unidade Cinco de Julho - (21) 3617-4697</p>
+                 <p>📞 Unidade Álvares de Azevedo - (21) 3674-2297</p>  
+                 <div id="area">
+                    <input type="button" value="ÁREA RESTRITA">
+                </div>
+                <div id="supico"><p>
+                </a><div id="i1"></div>
+                <a href="#"><div id="i2"></div></a>
+            </p></div>
+            </div>
+                
+        </label>
+    </div>
+</div>
+</body>
+</html>
